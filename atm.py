@@ -1,4 +1,4 @@
-balance = 1000
+bnalance = 1000
 
 print("-------ATM-------")
 print("Balance")
@@ -16,3 +16,7 @@ while True:
         balance += deposit
         print("Done! New balance:", balance)
             print("Thank you!")
+    else:
+        print("Deposit must be gretaer than 0)
+
+              
