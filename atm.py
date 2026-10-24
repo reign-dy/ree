@@ -1,4 +1,4 @@
-bnalance = 1000
+balance = 1000
 
 print("-------ATM-------")
 print("Balance")
