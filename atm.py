@@ -17,6 +17,6 @@ while True:
         print("Done! New balance:", balance)
             print("Thank you!")
     else:
-        print("Deposit must be gretaer than 0)
+        print("Deposit must be greater than 0: ")
 
               
