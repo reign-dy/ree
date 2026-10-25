@@ -16,7 +16,17 @@ while True:
         balance += deposit
         print("Done! New balance:", balance)
             print("Thank you!")
-    else:
-        print("Deposit must be greater than 0: ")
+    elif choice == 3:
+        Withraw = int(input("Enter amount to Withdraw :"))
+        if amount > balance:
+            print("Insufficient balance :")
+        elif amount > 0:
+            balance -= amount
+            print("Please Take your cash")
+        else:
+            print("Invalid amount :")
 
-              
+elif choice == 4:
+  print("Thank you for banking with us. Have a nice day.")
+else: 
+print("Inavlid pin. Please try again
